@@ -1,0 +1,70 @@
+html{
+    height:100%;
+}
+
+body{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+#ombre{
+    background: rgba(0,0,139,0.7);
+    width:100%;
+    height:5%;
+}
+
+#reste{
+    background: rgba(100,149,237,0.7);
+    width:100%;
+    height:95%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#conteneur_texte{
+    z-index:0;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+#conteneur_enregistrement{
+    position:absolute;
+    width:1300px;
+    height:200px;
+    background-color:white;
+    border-radius: 30px;
+    border: 10px solid darkgoldenrod;
+    top: 70px;
+}
+
+
+a{
+    position:absolute;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#jeu{
+    margin-top: 250px;
+    margin-left: 1560px;
+}
+
+#replay{
+    margin-top: 300px;
+    margin-left: 1570px;
+}
+
+p{
+    margin:10px 750px;
+    padding:0;
+    position:absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(38, 58, 58);
+}
